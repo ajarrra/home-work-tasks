@@ -35,3 +35,8 @@ number(7);
 number(2);
 
 // Напишите функцию, которая возвращает квадрат числа.
+function getSquare(a) {
+    return a * a;
+}
+console.log(getSquare(6));
+console.log(getSquare(66));
