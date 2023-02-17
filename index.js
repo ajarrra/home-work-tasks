@@ -13,21 +13,23 @@ function coneVolume(height, radius) {
 coneVolume(7, 6);
 
 //Напишите функцию, которая принимает строку и возвращает ее длину.
-function getLenght (line){
-    console.log ("длина равна " + line.length);
+function getLenght(line) {
+    console.log("длина равна " + line.length);
 }
 getLenght("Ajara");
 
 //Напишите функцию, которая принимает число и проверяет, четное оно или нечетное.
-function number (num){
-    if (num  % 2 === 0){
-        console.log (" число четное" + num);
+function number(num) {
+    if (num % 2 === 0) {
+        console.log(" число четное" + num);
     }
-    else if ( num % 2 === 1){
-        console.log ("число нечетное " + num);
+    else if (num % 2 === 1) {
+        console.log("число нечетное " + num);
     }
     else {
-        console.log( "это не число " + num);
+        console.log("это не число " + num);
     }
 }
-number ("");
+number("булочка");
+number(7);
+number(2);
