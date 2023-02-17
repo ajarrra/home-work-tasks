@@ -42,3 +42,6 @@ console.log(getSquare(6));
 console.log(getSquare(66));
 
 //Напишите функцию, которая возвращает корень числа.
+function geRoot (a){
+    return 
+}
