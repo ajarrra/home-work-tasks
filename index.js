@@ -40,3 +40,4 @@ function getSquare(a) {
 }
 console.log(getSquare(6));
 console.log(getSquare(66));
+
