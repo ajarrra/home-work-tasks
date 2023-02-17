@@ -19,3 +19,15 @@ function getLenght (line){
 getLenght("Ajara");
 
 //Напишите функцию, которая принимает число и проверяет, четное оно или нечетное.
+function number (num){
+    if (num  % 2 === 0){
+        console.log (" число четное" + num);
+    }
+    else if ( num % 2 === 1){
+        console.log ("число нечетное " + num);
+    }
+    else {
+        console.log( "это не число " + num);
+    }
+}
+number ("");
