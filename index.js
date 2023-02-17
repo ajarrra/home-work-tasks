@@ -11,3 +11,5 @@ function coneVolume(height, radius) {
     console.log("Объем конуса равен " + (height * pi * radius ** 2) / 3);
 }
 coneVolume(7, 6);
+
+//Напишите функцию, которая принимает строку и возвращает ее длину.
