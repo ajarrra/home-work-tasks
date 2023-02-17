@@ -13,5 +13,8 @@ function coneVolume(height, radius) {
 coneVolume(7, 6);
 
 //Напишите функцию, которая принимает строку и возвращает ее длину.
-
+function getLenght (line){
+    console.log ("длина равна " + line.length);
+}
+getLenght("Ajara");
 
