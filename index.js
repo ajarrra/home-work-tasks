@@ -46,7 +46,12 @@ console.log(getSquare(66));
 function geRoot(a) {
     return a ** (1 / 2);
 }
-console.log (geRoot(8));
+console.log(geRoot(8));
 
 //7. Напишите функцию, которая возвращает периметр пятиугольника.
+function perimeter(a, b, c, d, i) {
+    return a + b + c + d + i;
+}
+console.log(perimeter(6, 8, 2, 4, 7));
+
 
