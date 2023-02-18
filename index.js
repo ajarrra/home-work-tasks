@@ -66,3 +66,7 @@ for (let i = 1; i < 9; i++) {
     factorial = factorial * i;
 }
 console.log(factorial);
+
+//10. Напишите цикл, который выводит квадраты чисел от 1 до 10.
+// 1 4 9 ...
+
