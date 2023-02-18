@@ -61,3 +61,8 @@ for (let i = 0; i < 34; i += 3) {
 }
 
 //9. Напишите цикл, вычисляющий факториал числа 8. (8!)
+let factorial = 1;
+for (let i = 1; i < 9; i++) {
+    factorial = factorial * i;
+}
+console.log(factorial);
