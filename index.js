@@ -100,3 +100,5 @@ console.log(example1[0]);
 example1.unshift("Tina", "Lola");
 example1.push("Elaman", "Erjan", "Almaz");
 console.log(example1);
+
+//15. Создайте массив чисел и вычислите сумму всех четных чисел в массиве.
