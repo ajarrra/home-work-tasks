@@ -102,3 +102,13 @@ example1.push("Elaman", "Erjan", "Almaz");
 console.log(example1);
 
 //15. Создайте массив чисел и вычислите сумму всех четных чисел в массиве.
+let example2 = [2, 6, 5, 7, 11, 12];
+
+let num = 0;
+for (let i = 0; i < example2.length; i++) {
+    if (example2[i] % 2 === 0) {
+        num = num + example2[i];
+    }
+}
+console.log(num);
+
