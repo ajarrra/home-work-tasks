@@ -85,9 +85,18 @@ for (let i = 0; i < 21; i += 2) {
 }
 
 // Напишите цикл, который печатает нечетные числа от 1 до 15.
-for( let i = 1; i < 16; i += 2 ){
-    console.log (i);
+for (let i = 1; i < 16; i += 2) {
+    console.log(i);
 }
 
 //14. Создайте массив из строк и добавьте в начало массива 2 новых элемента, а в конец 3.
-let example1 =  ["Ajara" , "Ainura"];
+let example1 = ["Ajara", "Ainura"];
+console.log(example1);
+example1.push("Nestana");//конец
+console.log(example1[2]);
+example1.unshift("Elya");//начало
+console.log(example1[0]);
+
+example1.unshift("Tina", "Lola");
+example1.push("Elaman", "Erjan", "Almaz");
+console.log(example1);
