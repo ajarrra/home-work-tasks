@@ -113,9 +113,13 @@ for (let i = 0; i < example2.length; i++) {
 console.log(num);
 
 //17. Создайте массив строк и объедините их в одну строку. // ["I", "like", "to", "eat!"]
-let example3 =["I", "like", "to", "eat!"];
+let example3 = ["I", "like", "to", "eat!"];
 let union = "";
-for( let i = 0; i < example3.length; i++  ){
+for (let i = 0; i < example3.length; i++) {
     union = union + example3[i];
 }
-console.log (union);
+console.log(union);
+
+
+//18. Создайте массив строк ["one", "two", "three"] и переверните его. // ["three", "two", "one"]
+
