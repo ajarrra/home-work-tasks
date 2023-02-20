@@ -44,7 +44,7 @@ console.log(getSquare(66));
 
 // 6 Напишите функцию, которая возвращает корень числа.
 function geRoot(a) {
-    return a ** (1 / 2);
+    return a ** (1 / 2); //квадратный корень 
 }
 console.log(geRoot(8));
 
@@ -131,6 +131,15 @@ example5 = ["Ajara", "Nestana", "Elya"];
 console.log(example5[0]);
 console.log(example5[1]);
 console.log(example5[2]);
+
+//20. Создайте массив из чисел и выведите квадраты этих чисел. [2, 3, 4, 5]
+// 4 9 16 25
+example6 = [ 2 , 3 , 4 , 5];
+let result1 = 0
+for(let i = 0; i < example6.length; i++ ){
+  console.log 
+}
+
 
 
 
