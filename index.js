@@ -140,7 +140,14 @@ for(let i = 0; i < example6.length; i++ ){
   console.log 
 }
 
-
+//21. Создайте массив строк и проверьте есть ли такой элемент в массиве. // ["cat", "dog", "snake"] 
+// cat - true
+// parrot - false
+ 
+let animals = ["cat", "dog", "snake"];
+console.log(animals.includes("cat")); 
+console.log(animals.includes("parrot"));
+//includes проверка true / false
 
 
 
