@@ -134,10 +134,10 @@ console.log(example5[2]);
 
 //20. Создайте массив из чисел и выведите квадраты этих чисел. [2, 3, 4, 5]
 // 4 9 16 25
-//example6 = [2, 3, 4, 5];
-//for (let i = 0; i < example6.length; i++) {
-//    console.log
-//}
+example6 = [2, 3, 4, 5];
+for (let i = 0; i < example6.length; i++) {
+    console.log(example6[i] ** 2);
+}
 
 //21. Создайте массив строк и проверьте есть ли такой элемент в массиве. // ["cat", "dog", "snake"] 
 // cat - true
